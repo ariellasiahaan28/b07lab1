@@ -24,6 +24,7 @@ public static void main(String [] args) throws IOException {
 		System.out.println(p6.evaluate(1));
 		// test hasRoot
 		System.out.println(p6.hasRoot(0));
+		System.out.println(p6.hasRoot(1));
 		// test saveToFile
 		String s = "mytext.txt";
 		p6.saveToFile(s);
