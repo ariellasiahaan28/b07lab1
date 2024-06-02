@@ -31,8 +31,8 @@ public class Polynomial {
 			poly = new String(Files.readAllBytes(Paths.get(path)));
 		}
 		catch(IOException e){
-            e.printStackTrace();
-        }
+            		e.printStackTrace();
+        	}	
 		
 		String split[] = poly.split("[+-]");
 		int size = split.length;
@@ -174,8 +174,8 @@ public class Polynomial {
 			Files.writeString(ap, output, StandardCharsets.UTF_8);
 		}
 		catch(IOException e){
-            e.printStackTrace();
-        }	
+            		e.printStackTrace();
+        	}	
 	}	
 	
 }
